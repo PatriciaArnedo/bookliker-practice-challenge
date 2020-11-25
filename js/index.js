@@ -52,7 +52,7 @@ const getBookUsers = (id) => {
 }
 
 const likePatchRequest = (likeObj, id) => {
-    console.log("before fetch:",likeObj, id)
+    //console.log("before fetch:",likeObj, id)
     fetch(`http://localhost:3000/books/${id}`,{
         method: "PATCH",
         headers: {
@@ -70,7 +70,7 @@ const likePatchRequest = (likeObj, id) => {
 
 //-----Render Functions-----//
 
-const addUsertoUsers = (book) => {
+const addUser = (book) => {
     newUser = {
         id:1, username:"pouros"
     }
@@ -139,23 +139,24 @@ bookDiv.addEventListener("click", (event) => {
     if(event.target.matches("button")){
         //console.log("You clicked like!")
         const userUl = document.querySelector("#user-ul")
-        const liker = event.target
+        const likeButton = event.target
         
         getBookUsers(currentBook).then(bookObj => {
-            const liked = bookObj.users
+            const unliked = bookObj.users.filter(user => user.id !== 1)
+            const liked = addUser(bookObj)
             //console.log("unliked:",unliked,"liked:", liked)
-            console.log(liker.innerText)
-            if (liker.innerText === "Like"){
-                liker.innerText = "Unlike"
+            //console.log(liker.innerText)
+            if (likeButton.innerText === "Like"){
+                likeButton.innerText = "Unlike"
                 userUl.innerHTML = ""
-                likePatchRequest(addUsertoUsers(bookObj), currentBook)
-                console.log("you like it!")
+                likePatchRequest(liked, currentBook)
+                //console.log("you liked it!")
                 
-            } else if (liker.innerText === "Unlike") {
-                liker.innerText = "Like"
+            } else if (likeButton.innerText === "Unlike") {
+                likeButton.innerText = "Like"
                 userUl.innerHTML = ""
-                likePatchRequest(liked.filter(user => user.id !== 1), currentBook)
-                console.log("you unliked it!")
+                likePatchRequest(unliked, currentBook)
+                //console.log("you unliked it!")
                 
             }
 
