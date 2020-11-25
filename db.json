@@ -37,14 +37,22 @@
         {
           "id": 6,
           "username": "steuber"
-        },
-        {
-          "id": 1,
-          "username": "pouros"
         }
       ]
     },
     {
+      "0": {
+        "id": 8,
+        "username": "maverick"
+      },
+      "1": {
+        "id": 9,
+        "username": "alex"
+      },
+      "2": {
+        "id": 1,
+        "username": "pouros"
+      },
       "id": 3,
       "title": "I'm Telling the Truth, But I'm Lying",
       "subtitle": "Essays",
@@ -63,6 +71,18 @@
       ]
     },
     {
+      "0": {
+        "id": 10,
+        "username": "macejkovic"
+      },
+      "1": {
+        "id": 8,
+        "username": "maverick"
+      },
+      "2": {
+        "id": 1,
+        "username": "pouros"
+      },
       "id": 4,
       "title": "Angela Davis",
       "description": "Her own powerful story up to 1972, told with warmth, brilliance, humor and conviction. With an introduction by the author.",
@@ -80,6 +100,22 @@
       ]
     },
     {
+      "0": {
+        "id": 10,
+        "username": "macejkovic"
+      },
+      "1": {
+        "id": 4,
+        "username": "ann"
+      },
+      "2": {
+        "id": 8,
+        "username": "maverick"
+      },
+      "3": {
+        "id": 1,
+        "username": "pouros"
+      },
       "id": 5,
       "title": "Beyond the Gender Binary",
       "subtitle": "Pocket Change Collective",
@@ -120,6 +156,18 @@
       ]
     },
     {
+      "0": {
+        "id": 3,
+        "username": "marvin"
+      },
+      "1": {
+        "id": 5,
+        "username": "feels-like-summer"
+      },
+      "2": {
+        "id": 1,
+        "username": "pouros"
+      },
       "id": 7,
       "title": "The Collected Schizophrenias",
       "subtitle": "",
@@ -134,10 +182,38 @@
         {
           "id": 5,
           "username": "feels-like-summer"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
         }
       ]
     },
     {
+      "0": {
+        "id": 9,
+        "username": "alex"
+      },
+      "1": {
+        "id": 3,
+        "username": "marvin"
+      },
+      "2": {
+        "id": 2,
+        "username": "auer"
+      },
+      "3": {
+        "id": 1,
+        "username": "pouros"
+      },
       "id": 8,
       "title": "The Autobiography of Malcolm X",
       "subtitle": "As Told to Alex Haley",
@@ -160,6 +236,22 @@
       ]
     },
     {
+      "0": {
+        "id": 8,
+        "username": "maverick"
+      },
+      "1": {
+        "id": 6,
+        "username": "steuber"
+      },
+      "2": {
+        "id": 5,
+        "username": "feels-like-summer"
+      },
+      "3": {
+        "id": 1,
+        "username": "pouros"
+      },
       "id": 9,
       "title": "Parable of the Sower",
       "subtitle": "",
@@ -182,6 +274,18 @@
       ]
     },
     {
+      "0": {
+        "id": 8,
+        "username": "maverick"
+      },
+      "1": {
+        "id": 10,
+        "username": "macejkovic"
+      },
+      "2": {
+        "id": 1,
+        "username": "pouros"
+      },
       "id": 10,
       "title": "An American Marriage",
       "subtitle": "",
@@ -200,6 +304,18 @@
       ]
     },
     {
+      "0": {
+        "id": 8,
+        "username": "maverick"
+      },
+      "1": {
+        "id": 10,
+        "username": "macejkovic"
+      },
+      "2": {
+        "id": 1,
+        "username": "pouros"
+      },
       "id": 11,
       "title": "Behold the Dreamers",
       "subtitle": "",
